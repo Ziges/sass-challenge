@@ -1,0 +1,15 @@
+
+.success{
+  @extend %message-shared;
+  border-color: green;
+}
+
+.error{
+  @extend %message-shared;
+  border-color: yellow;
+}
+
+.warning{
+  @extend %message-shared;
+  border-color: red;
+}

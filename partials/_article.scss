@@ -1,0 +1,60 @@
+
+$standardpad: 16px;
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+
+  #selling-points {
+    flex-grow: 2;
+    flex-basis: 100%;
+
+    h2 {
+      color: #6b8eff;
+    }
+  }
+
+  section {
+    flex-grow: 1;
+    flex-basis: 45%;
+    border: 1px silver solid;
+    @include box-styling();
+    padding: $standardpad;
+    margin: 16px;
+    clear: both;
+    overflow: auto;
+    box-sizing: border-box;
+
+    h2 {
+      color: #6b8eff;
+    }
+
+
+    pre {
+      background: #000;
+      border: 1px solid #ddd;
+      color: #666;
+      font-family: monospace;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 1.6em;
+      max-width: 100%;
+      overflow: auto;
+      padding: $standardpad;
+      display: block;
+      white-space: pre-wrap;
+
+      .before {
+        float: left;
+        width: 40%;
+      }
+
+      .after {
+        float: right;
+        width: 40%;
+      }
+    }
+  }
+
+
+}
