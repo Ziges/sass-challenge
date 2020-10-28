@@ -1,7 +1,7 @@
 
-@import 'mixins';
-@import 'extends';
-@import 'header';
+@import 'partials/mixins';
+@import 'partials/extends';
+@import 'partials/header';
 
 
 
@@ -26,8 +26,8 @@ body {
   background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background-attachment: fixed;
 
-  @import 'article';
-  @import 'messages';
-  @import 'footer';
+  @import 'partials/article';
+  @import 'partials/messages';
+  @import 'partials/footer';
 
 }
